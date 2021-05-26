@@ -4,14 +4,23 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "test:unit": "jest --coverage"
   },
   "dependencies": {
+    "jest": "^27.0.1",
     "vue": "^3.0.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
     "@vitejs/plugin-vue": "^1.2.2",
     "@vue/compiler-sfc": "^3.0.5",
-    "vite": "^2.3.3"
+    "babel-jest": "^27.0.1",
+    "jest-transform-stub": "^2.0.0",
+    "ts-jest": "^27.0.0",
+    "vite": "^2.3.3",
+    "vue-jest": "^3.0.7",
+    "vue-template-compiler": "^2.6.12"
   }
 }
